@@ -2,7 +2,9 @@
 		<?php get_header();?>
 
 		<section>
-			<p> C'est la pause dans la section! </p>
+				<aside>
+					<?php get_sidebar();?>
+				</aside>
 		</section>
 
 		<?php get_footer();?>
