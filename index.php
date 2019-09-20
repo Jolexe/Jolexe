@@ -1,9 +1,4 @@
-<html>
-	<head>
-		<meta name="author" content="Alexandra & Joris">
-		<meta charset="utf-8">
-	</head>
-	<body>
+
 		<?php get_header();?>
 
 		<section>
@@ -11,5 +6,3 @@
 		</section>
 
 		<?php get_footer();?>
-	</body>
-</html>
