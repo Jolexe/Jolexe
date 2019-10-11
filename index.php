@@ -1,10 +1,1 @@
-
-		<?php get_header();?>
-
-		<section>
-				<aside>
-					<?php get_sidebar();?>
-				</aside>
-		</section>
-
-		<?php get_footer();?>
+<?php wp_redirect(site_url()); ?>
