@@ -28,6 +28,15 @@
                         )
                   );
 
+  /* autoriser les commentaires anonymes */
+
+  function com_anonyme()
+  {
+    return true;
+  }
+  add_filter('rest_allow_anonymous_comments','com_anonyme');
+    /* fin autoriser les commentaires anonymes */
+
   function creer_menus()
   {
     register_nav_menus(array('menu-principal' => 'Menu principal',

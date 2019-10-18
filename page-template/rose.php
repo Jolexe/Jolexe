@@ -7,7 +7,6 @@
  ?>
 
  <?php get_header(); ?>
- 
  <section style="
 
         background-color: pink;
